@@ -1,15 +1,57 @@
-h1 {
-	color: #1946ba;
-	font: 12px OpenSans, bold;
-	}
-}
-button {
-	color: #fff;
-	background-color: #29c5e6;
-	border: none;
-	height: 32px;
-	font-family: 'Oswald', sans-serif;
-}
-p {
-	margin: 20px 0;
-}
+.H1 { 
+    position: absolute;
+    left: 30px; top: 30px;
+    font-size: 200%; 
+    font-family: Open Sans; 
+    color: #1946ba;
+    
+   }
+   
+ .H2 { 
+    position: absolute;
+    left: 30px; top: 100px;
+    font-size: 120%; 
+    font-family: Open Sans; 
+    color: #000000;
+        
+   }
+   
+ .H3 { 
+    position: absolute;
+    left: 50px; top: 140px;
+    width: 560px;
+    font-size: 80%; 
+    font-family: Open Sans; 
+    color: #000000;
+      
+       }
+  
+  .border {
+    position: absolute;
+    left: 20px; top: 90px;
+    width: 650px;
+    height: 130px;
+    border: 1px solid #F5F5F5
+  }
+  
+  .line {
+    position: absolute;
+    left: 40px; top: 143px;
+    width: 2px;
+    height: 50px;
+    background: #808080
+  }
+  
+  .button{
+  position: absolute;
+    left: 30px; top: 250px;
+  background: url(https://psv4.userapi.com/c834504/u187704748/docs/d11/196820bf6978/button.png?extra=rdxZWn_agce7A-HzXOXEhxyITYZwQMUlmpw_bcoRwkLp4C9kbDfvhj9J5plG-jQjC71265MOCgsWszPx8CO0vEYMT-cIhafWBnV344XIxNF4_vaUXiGRCOJK3DR3Sdk8iSk8lxWzWs4d1w);
+  width: 193px;
+  height: 42px;
+  
+  }
+.button:hover{
+  background: url(https://psv4.userapi.com/c623800/u187704748/docs/d9/f4d7820a8b47/button2.jpg?extra=RnUs8eZH_OpN-PxNA2sumdyRXcGJ2RcYhkYh00So6qRDuCpjTJtYBfus9QaWh4MO1OCMjbpgzJlZYK_gNwtDG4rt1dIMB39X5Z34bN7uJTC-X5KJDDQI8lG208pZhKRG_Dk5ADuDkOlZXQ);
+  width: 193px;
+  height: 42px;
+  }
