@@ -46,27 +46,31 @@
     position: absolute;
     left: 30px; top: 250px;
   text-align:center;
-      cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
   background: #ec0b43;
   width: 193px;
-  height: 42px;
-    border-radius: 10px;
-   font-size: 80%; 
-    font-family: Open Sans; 
-    color: #ffffff
+  height: 22px;
+  border-radius: 10px;
+  font-size: 80%; 
+   font-family: Open Sans; 
+   color: #ffffff
+    
+    
+  
   
   }
 .button:hover{
   background: #730420;
   width: 193px;
-  height: 42px;
+  height: 22px;
   }
   .button:active{
   position: absolute;
     left: 30px; top: 250px;
   background: #32b00b;
   width: 193px;
-  height: 42px;
+  height: 22px;
   text-align:center;
   font-size: 80%; 
     font-family: Open Sans; 
