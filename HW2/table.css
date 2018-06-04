@@ -1,0 +1,37 @@
+.country-table {
+  border-collapse: collapse;
+}
+
+.country-table tbody tr:nth-child(2n+1) {
+  background-color: #e9e9e9;
+}
+
+.country-table td, .country-table th, .country-table caption {
+  border: 1px solid gray;
+  padding: 2px 6px;
+}
+
+.country-table th {
+  cursor: default;
+}
+
+.country-table th.down-arrowed::after {
+  content: "▼";
+}
+
+.country-table th.up-arrowed::after {
+  content: "▲";
+}
+
+.country-table .center-text {
+  text-align: center;
+}
+
+.country-table .right-text {
+  text-align: right;
+}
+
+.controller-row {
+  padding: 5px 0;
+  user-select: none;
+}

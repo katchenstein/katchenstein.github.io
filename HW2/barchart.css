@@ -1,0 +1,20 @@
+.country-barchart {
+  border-collapse: collapse;
+}
+
+.country-barchart .center-text {
+  text-align: center;
+}
+
+.country-barchart .right-text {
+  text-align: right;
+}
+
+.controller-row {
+  padding: 5px 0;
+  user-select: none;
+}
+
+rect {
+  fill-opacity:.8;
+}
